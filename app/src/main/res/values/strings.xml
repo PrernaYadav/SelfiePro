@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Selfie Pro</string>
+
+    <string name="label_brush">Brush</string>
+    <string name="label_emoji">Emoji</string>
+    <string name="label_sticker">Sticker</string>
+    <string name="label_eraser">Eraser</string>
+    <string name="label_text">Text</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_adjust">Adjust</string>
+
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+    <string name="location_updated_message">Location Update</string>
+
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_selected_image">SelectedImageActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="adUnitId_banner">ca-app-pub-2691806550199991/4372930267</string>
+    <string name="adUnitId_intersitial">ca-app-pub-2691806550199991/5849663461</string>
+
+    <string name="strCamera">Camera</string>
+    <string name="strGallery">Gallery</string>
+
+    <string name="strCollage">Collage</string>
+
+
+    <string name="ic_close">"\ue918"</string>
+    <string name="ic_text">"\ue945"</string>
+    <string name="ic_draw">""\ue944</string>
+    <string name="ic_images">"\ue949"</string>
+    <string name="ic_save">"\ue946"</string>
+    <string name="ic_clear_all">"\ue947"</string>
+    <string name="ic_continue">"\ue948"</string>
+    <string name="ic_delete">"\ue92c"</string>
+
+    <string name="choose_from_gallery">Choose From Gallery</string>
+    <string name="choose_from_camera">Choose From Camera</string>
+    <string name="undo">Undo</string>
+    <string name="erase">Erase</string>
+
+</resources>

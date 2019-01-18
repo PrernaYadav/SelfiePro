@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+
+
+
+    <color name="SkyDark">#2196F3</color>
+    <color name="SkyLight">#01b9e6</color>
+    <color name="bluelight">#bfcbe9</color>
+    <color name="grayDark">#868686</color>
+
+
+    <color name ="colorSky">#5bc0de</color>
+    <color name="colorBuyNow">#333</color>
+
+    <color name="transparent_black">#80000000</color>
+    <color name="greenDark">#006057</color>
+    <color name="light_green">#018e80</color>
+    <color name="dark_green">#006057</color>
+    <color name="red">#ff0000</color>
+    <color name="redDark">#cb151b</color>
+    <color name="redDark1">#722219</color>
+    <color name="redDark2">#bf392b</color>
+
+    <color name="button_green">#5fc73b</color>
+    <color name="blue">#174fc7</color>
+
+    <color name ="orange">#c56100</color>
+    <color name="primary_blue">#00aeef</color>
+    <color name="skyblue_light">#2196F3</color>
+    <color name="skyblue_dark">#1E88E5</color>
+    <color name="sky_blue">#7ec0ee</color>
+    <color name="deep_blue">#1c3f95</color>
+    <color name="error_strip">#e74040</color>
+    <color name="success">#3bbe01</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="active_yellow">#ffdd00</color>
+    <color name="primary_green">#6ac451</color>
+    <color name="primary_orange">#c56100</color>
+
+    <color name="activate_text_color">#FF666666</color>
+    <color name="color_13">#fffbe2</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_gray">#e9e9e9</color>
+    <color name="deactivate_text_color">#FFCCCCCC</color>
+    <color name="transparent">#00000000</color>
+    <color name="darker_gray">#8c8c8c</color>
+    <color name="light_blue">#aecdd8</color>
+    <color name="light_grey">#e5e5e5</color>
+    <color name="view_clr">#d6d4d4</color>
+    <color name="gray">#95a5a6</color>
+    <color name="clouds">#ecf0f1</color>
+    <color name="input_gray">#FFDEE6E6</color>
+    <color name="trans_black">#32000000</color>
+    <color name="button_gray">#cbcbcb</color>
+    <color name="inactive_text">#d0cbc6</color>
+    <color name="inactive_bg">#fffbe2</color>
+    <color name="cards_number_textColor">#514538</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+
+    <color name="colorPrimaryLight">#b4b4b4</color>
+    <color name="colorHint">#a3a3a3</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="textIconColorPrimary">#FFFFFF</color>
+    <color name="textBlack">#000000</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#727272</color>
+
+
+    <color name="semi_transparent">#bd000000</color>
+    <color name="black_transparent_70percent">#B3000000</color>
+    <color name="semi_light_transparent">#5a000000</color>
+    <color name="semi_lighter_transparent">#2d000000</color>
+
+    <color name="background_grey">#f2f2f2</color>
+    <color name="line_lighter_grey">#dedede</color>
+    <color name="line_light_grey">#d7a7a7a7</color>
+    <color name="item_grey">#eeeeee</color>
+    <color name="grey_lighter">#bcbcbc</color>
+    <color name="grey">#d7666666</color>
+
+    <color name="view_divider_color">#BABABA</color>
+
+
+
+
+</resources>

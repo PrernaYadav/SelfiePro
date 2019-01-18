@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".collage.CollageSelectedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skyblue_light"
+        android:orientation="vertical"
+        android:weightSum="20"
+        >
+
+        <RelativeLayout
+            android:id="@+id/idCollageRLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_weight="15.00">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <FrameLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimaryDark"
+                        android:layout_weight="0.5" >
+
+                        <ImageView
+                            android:id="@+id/idCollageFrameShape1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="matrix"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:layout_weight="0.5" >
+
+                        <ImageView
+                            android:id="@+id/idCollageFrameShape2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="matrix" >
+                        </ImageView>
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="120dp"
+                    android:layout_height="135dp"
+                    android:background="@color/white"
+                    android:layout_centerInParent="true" >
+
+                    <ImageView
+                        android:id="@+id/idCollageFrameShape3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="matrix"
+                        >
+                    </ImageView>
+                </FrameLayout>
+
+
+            <ImageView
+                android:id="@+id/idMainCollageFrameImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                />
+        </RelativeLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/dp1"
+            android:layout_marginBottom="@dimen/dp1">
+        </View>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_weight="2.75"
+            android:id="@+id/idCollageEditToolsRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/dp1"
+            android:paddingRight="@dimen/dp1"
+            android:background="@android:color/black"
+            android:orientation="horizontal"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_weight="2.75"
+            android:id="@+id/idCollageListRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/dp1"
+            android:paddingRight="@dimen/dp1"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            android:visibility="gone"
+            />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/dp1"
+            android:layout_marginBottom="@dimen/dp1">
+        </View>
+
+        <!--***************************-->
+
+        <LinearLayout
+            android:layout_weight="2.25"
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@color/skyblue_light"
+            android:weightSum="20" >
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:id="@+id/idCollageEditToolsCloseLLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center"
+                android:orientation="vertical"
+                android:weightSum="10"
+                >
+
+                <ImageView
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:srcCompat="@drawable/ic_close"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Close"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:paddingBottom="@dimen/dp5"/>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:id="@+id/idCollageEditBackLLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_media_previous"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:id="@+id/idCollageEditNextLLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_media_next"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
